@@ -596,6 +596,12 @@ height: 20px;
 .na{
   display: none;
 }
+.message{
+  display: none;
+}
+.mar{
+  display: none !important;
+}
  /* .ala{
   width: 370px;
  }

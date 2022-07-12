@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wakapoints.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100" cz-shortcut-listen="true">
+      <section class="login-block">
+            <div class="container"><div class="row">
+                <div class="col-12"><div style="margin-bottom: 54px;">
+                    <a href="/"><img src="../Image/wakanow-logo (1).png" style="width: 180px;"></a>
+                </div>
+            </div>
+            <div class="col-lg-5 banner-sec d-sm-block offset-md-0 col-md-6">
+                <div class="p-3"><h1 class="title" style="font-weight: bold; margin-top: 30px; margin-bottom: 30px;">Earn Points On Every Booking or spend with <br>Wakanow 
+                </h1>
+                <p class="description" style="margin-bottom: 60px;">Wakanow rewards you with instant points every time you book or spend.</p>
+                <div>
+                    <a routerlinkactive="active" class="w-btn w-btn-primary button-wide" href="/balancecheck">CHECK BALANCE</a>
+                    <a routerlinkactive="active" class="w-btn w-btn-secondary button-wide" href="/howitworks">HOW IT WORKS</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 login-sec offset-lg-2 offset-md-0 col-md-6">
+            <div class="box"><!----><!---->
+                <h2>Register for WakaPoints </h2>
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                    <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                    </symbol>
+                    <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                    </symbol>
+                    <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                    </symbol>
+                </svg>
+                <div role="alert" class="alert alert-primary d-flex align-items-center login-subtitle"><svg width="24" height="24" role="img" aria-label="Info:" class="bi flex-shrink-0 me-2">
+                    <use xlink:href="#info-fill"></use>
+                </svg>
+                <div style="font-size: 12px;"> Use all given names and surnames exactly as they appear on your passport/ID to avoid complications </div>
+            </div>
+            <div class="login-form">
+                <form novalidate="" class="ng-untouched ng-pristine ng-invalid">
+                    <div class="form-group">
+                        <label for="firstName" class="input-title">First Name *</label>
+                        <input type="text" id="firstName" maxlength="128" placeholder="" formcontrolname="firstName" class="form-control text-dark ng-untouched ng-pristine ng-invalid"><!----></div>
+                        <div class="form-group">
+                            <label for="middleName" class="input-title">Middle Name</label>
+                            <input type="text" id="middleName" maxlength="128" placeholder="" formcontrolname="middleName" class="form-control text-dark ng-untouched ng-pristine ng-valid"><!----></div>
+                            <div class="form-group">
+                                <label for="lastName" class="input-title">Last Name *</label>
+                                <input type="text" id="lastName" maxlength="128" placeholder="" formcontrolname="lastName" class="form-control text-dark ng-untouched ng-pristine ng-invalid">
+                                <!----></div>
+                                <div class="form-group">
+                                    <label for="emailAddress" class="input-title">Email *</label>
+                                    <input type="email" id="emailAddress" maxlength="128" placeholder="" formcontrolname="emailAddress" class="form-control text-dark ng-untouched ng-pristine ng-invalid"><!----></div>
+                                    <div class="form-group"><div class="input-title">Select Your Gender *</div><div class="form-check form-check-inline">
+                                        <input value="male" type="radio" id="male" formcontrolname="gender" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="male" class="form-check-label input-title">Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" value="female" id="female" formcontrolname="gender" class="form-check-input ng-untouched ng-pristine ng-valid">
+                                        <label for="female" class="form-check-label input-title">Female</label>
+                                    </div><!---->
+                                </div>
+                                <div class="form-group"><label for="dateOfBirth" class="input-title">Date Of Birth *</label><input placeholder="" formcontrolname="dateOfBirth" bsdatepicker="" class="form-control text-dark ng-untouched ng-pristine ng-invalid"><!----><!----></div>
+                                <div class="form-group"><label for="mobileNumber" class="input-title"> Mobile Number *</label>
+                                    <input type="tel" id="mobileNumber" maxlength="14" placeholder="" appblockcopypaste="" formcontrolname="mobileNumber" class="form-control text-dark ng-untouched ng-pristine ng-invalid"><!----></div>
+                                    <div>
+                                        <button type="button" id="btnaction" class="btn btn-login float-right">Register</button>
+                                    </div><!----><!----></form><!----><!----><!----></div>
+                                    <div class="copy-text">
+                                        <div> Powered by </div>
+                                        <div>
+                                            <a target="_blank" href="https://thankucash.com">
+                                                <img src="../Image/thank u.png" style="width: 94px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tain">
+                            <div class="container">
+                              <div class="row d-flex">
+                                <div class="col-lg-12">
+                                  <div class="text-white mt-3" >
+                                    <h5 class="text-white d-none d-sm-block" style="font-size: 14px; margin-left: -15px; font-weight:bold ;">Wakanow</h5>
+                                    <ul style="margin-left: -55px; font-size: 14px;">
+                                      <li class="list-inline-item">About us</li>
+                                      <li class="list-inline-item">Terms and Conditions</li>
+                                      <li class="list-inline-item">Privacy Policy</li>
+                                      <li class="list-inline-item">Contact us</li>
+                                      <li class="list-inline-item">Wakanow Affiliates</li>
+                                      <li class="list-inline-item">Refer a customer</li>
+                                      <li class="list-inline-item">Blog</li>
+                                    </ul>
+                                    <p style="margin-left: -15px; font-size: 14px;">Copyright © 2008-2022 WAKANOW.COM LIMITED.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           
+                            </div>
+  </body>
+</html>

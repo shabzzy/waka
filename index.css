@@ -1519,6 +1519,9 @@ width: 575px;
   .elijah{
     width: 360px;
   }
+  .ran:focus .tou{
+    display: inherit;
+  }
   .city7{
     width: 180px;
   }

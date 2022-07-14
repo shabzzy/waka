@@ -702,6 +702,29 @@ height: 20px;
       padding-left: 100px !important;
     }
   }
+  /* @media(max-width: 560px){
+    .city{
+      width: 540px !important;
+    }
+    .city7{
+      width: 270px !important;
+    }
+    .city8{
+      width: 270px !important;
+    }
+    .label9{
+      margin-left: 285px !important;
+    }
+    .marc{
+      width: 265px !important;
+    }
+    .mas{
+      width: 265px !important;
+    }
+    .button{
+      width: 540px !important;
+    }
+  } */
 @media(max-width: 575px){
   .back {
     background-image: none;
@@ -712,16 +735,26 @@ height: 20px;
     background-color: #3898E2;
     margin: 0;
 }
-
+.label9{
+  font-size: 12px;
+  position: absolute;
+  margin-left: 300px;
+  
+}
+.conten{
+  display: inherit;
+  width: 210x;
+  display: block;
+ }
 .city8{
-  width: 290px ;
+  width: 278px;
   height: 65px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   
 }
 .city7{
-  width: 290px ;
+  width: 278px ;
   height: 65px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -889,6 +922,195 @@ height: 20px;
  .ran:focus .tou{
   display: inherit;
  }
+.elijah{
+  width: 574px;
+}
+.back {
+  background-image: none;
+  width: 100%;
+  height:600px;
+  background-repeat: no-repeat;
+  padding: 0;
+  background-color: #3898E2;
+  margin: 0;
+}
+
+.city8{
+width: 280px ;
+height: 65px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+
+}
+.city7{
+width: 280px ;
+height: 65px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+padding-right: 50px;
+}
+.marc{
+height: 65px; 
+width: 274px; 
+}
+.mas{
+height: 65px; 
+width: 274px;
+}
+.book{
+display: none;
+}
+.fa-plane{
+display: block;
+margin-left: 30px;
+}
+.tay{
+margin-left: 250px;
+}
+.fa-bed{
+display: block;
+margin-left: 30px;
+}
+.fa-sticky-note{
+display: block;
+margin-left: 30px;
+}
+#ball{
+display: none;
+}
+#sch .bat{
+display: none;
+}
+#nigeria{
+display: none;
+}
+.usman{
+width: 90px;
+margin-left: -30px;
+}
+.ran{
+display: inherit;
+border: none;
+margin-left: 10px;
+}
+
+.ibeji{
+display: inherit;
+}
+.anu{
+margin-left: 
+}
+#suppor{
+font-size: 10px;
+margin-bottom: 40px
+}
+.tunji{
+margin-top: 20px; 
+margin-left: -30px;
+
+
+}
+.dimeji{
+border-bottom: 1px solid #c4c4c4;
+width: 100% !important;
+background-color: #ffffff;
+height: 50px !important;
+position: relative !important;
+}
+.usman{
+margin-bottom: 40px;
+width: 120px !important;
+}
+.goa{
+font-size: 18px;
+font-weight: 400;
+
+}
+.city{
+width: 555px;
+}
+#gos{
+margin-left: 80px;
+}
+#goss{
+margin-left: 80px;
+}
+.dad{
+display: inherit !important;
+display: flex !important;
+width: 565px !important;
+
+
+}
+.mom{
+display: none;
+}
+.tao{
+display: none !important;
+}
+.bolu{
+display: inherit !important;
+display: flex !important;
+justify-content: space-between;
+align-items: center;
+font-size: 14px;
+margin-top: -40px;
+}
+#shabxy{
+display: none !important;     
+}
+#shabs{
+display: inherit;
+}
+.taoh button{
+background-color: white !important;
+color: black !important;
+font-size: 16px;
+font-weight: 500;
+font-family: rubik, sans-serif;
+}
+.button{
+border: none;
+/* background-color: #F58220; */
+background-color:rgb(245, 130, 32);
+width: 560px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+margin-left: -2px ;
+height: 65px;
+}
+.ayo{
+display: none !important;
+}
+.ife{
+margin-left: -400px !important;
+}
+.nj{
+display: inherit;
+}
+.na{
+display: none;
+}
+.message{
+display: none;
+}
+.mar{
+display: none !important;
+}
+.nj{
+display: none;
+}
+.content{
+display: none;
+}
+#emma{
+display: none;
+}
+.ran:focus .tou{
+display: inherit;
+}
 
 }
 @media( max-width: 572px){
@@ -900,6 +1122,9 @@ height: 20px;
     padding: 0;
     background-color: #3898E2;
     margin: 0;
+}
+.elijah{
+width: 575px;
 }
 
 .city8{
@@ -1252,14 +1477,17 @@ height: 20px;
   display: inherit;
  }
  .city7{
-  width: 210px;
+  width: 200px;
   height: 65px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 
 }
+.message{ 
+  display: none !important;
+}
 .city8{
-  width: 210px;
+  width: 200px;
   height: 65px;
   border-top-right-radius: 4px;
   border-bottom-right-radius:4px;
@@ -1278,6 +1506,54 @@ height: 20px;
   margin-left: 227px;
   
 }
+.conten{
+  display: inherit;
+  width: 210x;
+  display: block;
+ }
 }
+@media(max-width: 375px){
+  .city{
+    width: 360px;
+  }
+  .elijah{
+    width: 360px;
+  }
+  .city7{
+    width: 180px;
+  }
+  .city8{
+    width: 180px;
+  }
+  .label8{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 20px;
+    
+  }
+  .label9{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 195px;
+    
+  }
+  .marc{
+    height: 65px; 
+    width: 175px; 
+  }
+  .mas{
+    height: 65px; 
+    width: 175px;
+  }
+  .button{
+    width: 360px;
+   }
+   .conten{
+    display: inherit;
+    width: 210x;
+    display: block;
+   }
+}
+
 
  
